@@ -362,6 +362,7 @@ GameObject:
   - component: {fileID: 823246279}
   - component: {fileID: 823246278}
   - component: {fileID: 823246277}
+  - component: {fileID: 823246281}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -483,3 +484,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823246281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823246276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbb62ca381f870249a921580165add3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftmoveforce: {x: -0.005, y: 0, z: 0}
+  rightmoveforce: {x: 0.005, y: 0, z: 0}
+  jumpforce: {x: 0, y: 0.05, z: 0}
+  canJump: 1
+  leftbulletprefab: {fileID: 3517033887406241433, guid: 92de37b83462d7a4db445e73f83b5df7, type: 3}
+  rightbulletprefab: {fileID: 6570426577643007346, guid: 9f68183fbbb3b9c4cb2da9ee75da5018, type: 3}
+  playerFacing: 1
